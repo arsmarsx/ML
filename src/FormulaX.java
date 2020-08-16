@@ -1,6 +1,9 @@
 
 
 
+
+
+
 public class FormulaX {
 
     public static double sigmoid(double x1) {
@@ -11,3 +14,4 @@ public class FormulaX {
         return (sigmoid(y1)*(1-sigmoid(y1)));
     }
 }
+
