@@ -175,13 +175,13 @@ public class NeuralNetwork {
     public void workInHiddenLayer(){
         F1 = n1 * w1 + n2 * w2;
         F2 = n1 * w3 + n2 * w4;
-        S1 = FormulaX.sigmoid(F1);
-        S2 = FormulaX.sigmoid(F2);
+        S1 = FormulaX.activationFunction(F1);
+        S2 = FormulaX.activationFunction(F2);
         System.out.println(""+" Weights { w1= "+w1 +" w2= "+w2+" w3= "+w3+" w4= "+w4+" w5= "+w5+" w6= "+w6+" } F "+F1);
     }
     public void errorCheck(){
         Ff = S1*w5+S2*w6;
-        calc = FormulaX.sigmoid(Ff);
+        calc = FormulaX.activationFunction(Ff);
         error = (calc -target ); // multiply for 2 is need for rid negative numbers
         if (error > 1) { System.out.println("ATTENTION error > 1"); } // Checker
 
@@ -191,7 +191,7 @@ public class NeuralNetwork {
     //START TRAINING
     private void workInW5_W6() {
         // get new weights w5~w6
-        deltaOutputSum = FormulaX.sigmoiddx(Ff)*error;
+        deltaOutputSum = FormulaX.activationFunctiondx(Ff)*error;
         double[] newWeights5_6 = {(deltaOutputSum/S1)+w5,(deltaOutputSum/S2)+w6};
         w5 = newWeights5_6[0];
         w6 = newWeights5_6[1];
@@ -200,7 +200,7 @@ public class NeuralNetwork {
 //            a = a * array[i];
 //        }
         System.out.println(Arrays.toString(newWeights5_6));
-        HiddenSum = new double[]{(deltaOutputSum / w5) + FormulaX.sigmoiddx(F1), (deltaOutputSum / w6) + FormulaX.sigmoiddx(F2)};
+        HiddenSum = new double[]{(deltaOutputSum / w5) + FormulaX.activationFunctiondx(F1), (deltaOutputSum / w6) + FormulaX.activationFunctiondx(F2)};
     }
 
     private void workInW1_W4() {

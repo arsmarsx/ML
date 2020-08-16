@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c051d306-faff-46df-b4c6-d5747dfdd32b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/airplanebeep.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetworkTRY1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetworkTRY1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormulaX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormulaX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNetwork.java" afterDir="false" />
     </list>
@@ -31,7 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1g3etmpMkRqzc40cAsHODTKJM0D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -49,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Xiaomi\IdeaProjects\NeuralNetworkTRY1\src" />
       <recent name="C:\Users\Xiaomi\IdeaProjects\NeuralNetworkTRY1" />
     </key>
   </component>
@@ -90,7 +91,7 @@
       <updated>1597347919473</updated>
       <workItem from="1597347927483" duration="386000" />
       <workItem from="1597383616312" duration="8542000" />
-      <workItem from="1597487317281" duration="32901000" />
+      <workItem from="1597487317281" duration="34596000" />
     </task>
     <servers />
   </component>
@@ -106,22 +107,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1597582118565" />
-    <state width="1237" height="187" key="GridCell.Tab.0.bottom" timestamp="1597576942649">
+    <state x="371" y="96" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597604571103">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1597576942649" />
-    <state width="1237" height="187" key="GridCell.Tab.0.center" timestamp="1597576942649">
+    <state x="371" y="96" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1597604571103" />
+    <state width="1237" height="54" key="GridCell.Tab.0.bottom" timestamp="1597604308386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1597576942649" />
-    <state width="1237" height="187" key="GridCell.Tab.0.left" timestamp="1597576942648">
+    <state width="1237" height="54" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1597604308386" />
+    <state width="1237" height="54" key="GridCell.Tab.0.center" timestamp="1597604308385">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1597576942648" />
-    <state width="1237" height="187" key="GridCell.Tab.0.right" timestamp="1597576942649">
+    <state width="1237" height="54" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1597604308385" />
+    <state width="1237" height="54" key="GridCell.Tab.0.left" timestamp="1597604308385">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1597576942649" />
+    <state width="1237" height="54" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1597604308385" />
+    <state width="1237" height="54" key="GridCell.Tab.0.right" timestamp="1597604308386">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="54" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1597604308386" />
     <state width="1237" height="196" key="GridCell.Tab.1.bottom" timestamp="1597513670533">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

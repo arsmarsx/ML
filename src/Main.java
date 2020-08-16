@@ -7,7 +7,7 @@ import java.util.Random;
 
 /*
 Neural Network Berta
-v. 0.01
+v. 0.011
        2020
  @author arsmarsx
 
@@ -59,7 +59,12 @@ public class Main {
         };
         // Data in output
         double[] outputs = new double[] { 1 , 0 };
+        //Choose style of calculating
 
+        // hyperbolic tan or sigmoid?
+        FormulaX fx = new FormulaX("hyper");
+
+        //num of iterations
         NeuralNetwork nn = new NeuralNetwork(10000,inputs,outputs);
 
         nn.launchPad();
