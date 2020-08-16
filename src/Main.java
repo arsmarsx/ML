@@ -1,7 +1,18 @@
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.concurrent.ExecutionException;
 
 /*
 Neural Network Berta
@@ -49,19 +60,19 @@ public class Main {
         double rand_dub1 = rand.nextDouble();
         //int s = (rand.nextInt(99) + 1)/100;;
 
-//        w1 = (double) (rand.nextInt(99) + 1)/100;
-//        w2 = (double) (rand.nextInt(99) + 1)/100;
-//        w3 = (double) (rand.nextInt(99) + 1)/100;
-//        w4 = (double) (rand.nextInt(99) + 1)/100;
-//        w5 = (double) (rand.nextInt(99) + 1)/100;
-//        w6 = (double) (rand.nextInt(99) + 1)/100;
+        w1 = (double) (rand.nextInt(99) + 1)/100;
+        w2 = (double) (rand.nextInt(99) + 1)/100;
+        w3 = (double) (rand.nextInt(99) + 1)/100;
+        w4 = (double) (rand.nextInt(99) + 1)/100;
+        w5 = (double) (rand.nextInt(99) + 1)/100;
+        w6 = (double) (rand.nextInt(99) + 1)/100;
         //
-        w1 = 0.77;
-        w2 = 0.3;
-        w3 = 0.75;
-        w4 = 0.69;
-        w5 = 0.92;
-        w6 = 0.68;
+//        w1 = 0.77;
+//        w2 = 0.3;
+//        w3 = 0.75;
+//        w4 = 0.69;
+//        w5 = 0.92;
+//        w6 = 0.68;
 
         display();
     }
@@ -69,8 +80,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double [] inputData = { 1 ,1 };
+        // Data in input
+        double[][] inputs = new double[][]{
+                {1, 0, 1}, // 1 input
+                {0, 1, 1}, // 1 input
+                {0, 0, 0}, // 1 input
+                {1, 1, 1}, // 1 input
+        };
         double outputData = 1;
+
+        NeuralNetwork nn = new NeuralNetwork(100000,inputs,outputData);
+
 
         double x = FormulaX.sigmoiddx(1);
         //new Main().display();
@@ -84,7 +104,7 @@ public class Main {
         System.out.println("- Welcome to Berta - Neural Network - ");
         System.out.println("Starting NN Berta");
         generateRandomWeights();
-        double acc = 50000;
+        double acc = 10000000;
         for (var epoch =0; epoch<1*acc; epoch++) {
             System.out.println("█︎█︎█︎█︎ New Epoch # "+epoch+ " "+ acc*0.25+" █︎█︎█︎█︎█︎");
 
@@ -123,6 +143,7 @@ public class Main {
 
     private void testingNewModel() {
         Scanner in = new Scanner(System.in);
+        makeSound();
         //System.out.println("Do you want try new Model? y/n");
         try {
             System.out.println("launch model");
@@ -201,6 +222,19 @@ public class Main {
         System.out.println("input:||  output :");
        // System.out.println( n1 + "   ||  " + target);
         System.out.println( n2 + "   || "+ w1);
+
+
+    }
+
+    public void makeSound(){
+        File lol = new File("airplanebeep.wav");
+        try{
+            Clip clip = AudioSystem.getClip();
+            clip.open(AudioSystem.getAudioInputStream(lol));
+            clip.start();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 

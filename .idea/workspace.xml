@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c051d306-faff-46df-b4c6-d5747dfdd32b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/airplanebeep.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetworkTRY1/FormulaX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetworkTRY1/FormulaX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeuralNetworkTRY1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetworkTRY1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormulaX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormulaX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNetwork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +41,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Xiaomi\IdeaProjects\NeuralNetworkTRY1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -84,7 +90,7 @@
       <updated>1597347919473</updated>
       <workItem from="1597347927483" duration="386000" />
       <workItem from="1597383616312" duration="8542000" />
-      <workItem from="1597487317281" duration="19318000" />
+      <workItem from="1597487317281" duration="32901000" />
     </task>
     <servers />
   </component>
@@ -96,26 +102,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="4" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1597347937896" />
-    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser" timestamp="1597494909639">
+    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser" timestamp="1597582118565">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1597494909639" />
-    <state width="1237" height="56" key="GridCell.Tab.0.bottom" timestamp="1597519261245">
+    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1597582118565" />
+    <state width="1237" height="187" key="GridCell.Tab.0.bottom" timestamp="1597576942649">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="56" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1597519261245" />
-    <state width="1237" height="56" key="GridCell.Tab.0.center" timestamp="1597519261245">
+    <state width="1237" height="187" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1597576942649" />
+    <state width="1237" height="187" key="GridCell.Tab.0.center" timestamp="1597576942649">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="56" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1597519261245" />
-    <state width="1237" height="56" key="GridCell.Tab.0.left" timestamp="1597519261245">
+    <state width="1237" height="187" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1597576942649" />
+    <state width="1237" height="187" key="GridCell.Tab.0.left" timestamp="1597576942648">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="56" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1597519261245" />
-    <state width="1237" height="56" key="GridCell.Tab.0.right" timestamp="1597519261245">
+    <state width="1237" height="187" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1597576942648" />
+    <state width="1237" height="187" key="GridCell.Tab.0.right" timestamp="1597576942649">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="56" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1597519261245" />
+    <state width="1237" height="187" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1597576942649" />
     <state width="1237" height="196" key="GridCell.Tab.1.bottom" timestamp="1597513670533">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -140,9 +146,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1597486246030" />
-    <state x="91" y="0" key="new project wizard" timestamp="1597489249415">
+    <state x="91" y="0" key="new project wizard" timestamp="1597582333126">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1597489249415" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1597582333126" />
   </component>
 </project>
